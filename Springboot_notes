@@ -1,2 +1,7 @@
 > in Springboot we create the objects to perform operations, so to give the control to someone is by IoC(Invetion og control. this can be achieved by Dependancy Injection.
-> 
+> here DI is a design pattern where as IoC is a princliple 
+>there are 3 types of injection 
+-- constructor injection
+--setter injection
+--field injection = not recomended 
+> to create a web application you have to push Web Archive (.war) file to cloud so if you use springboot you will have a tomcat server in built
