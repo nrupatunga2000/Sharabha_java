@@ -25,6 +25,6 @@ public class arrayList {
         students stud[] = new students[3];
         stud[0] = s1;
         stud[1] = s2;
-        stud[2] = s3
+        stud[2] = s3;
     }
 }
