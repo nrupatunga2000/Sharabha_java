@@ -9,6 +9,7 @@ public class arrlist {
         cars.set(1, "Tesla");
         cars.remove(0);
         System.out.println(cars);
+        System.out.println(cars.size());
 
         
     }
