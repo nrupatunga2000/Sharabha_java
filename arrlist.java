@@ -1,5 +1,5 @@
 import java.util.*;
-public class arrlist {
+public class Arrlist {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
         
@@ -7,7 +7,7 @@ public class arrlist {
         cars.add("benz");
         cars.add(0,"audi");
         cars.set(1, "Tesla");
-        cars.remove(0);
+        // cars.remove(0);
         System.out.println(cars);
         System.out.println(cars.size());
 
