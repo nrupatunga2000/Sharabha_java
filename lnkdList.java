@@ -1,7 +1,7 @@
 import java.util.*;
 public class lnkdList {
     public static void main(String[] args) {
-        LinkedList<String> cars = new LinkedList<String>();
+        LinkedListdemo<String> cars = new LinkedListdemo<String>();
         cars.add("BMW");
         cars.add("Suzuki");
         cars.add("Benz");
