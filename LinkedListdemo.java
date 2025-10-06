@@ -9,6 +9,7 @@ class Node{
 
 public class LinkedListdemo {
     public static void main(String[] args) {
+        //create the nodes (boxes)
         Node box1 = new Node();
         Node box2 = new Node();
         Node box3 = new Node();
