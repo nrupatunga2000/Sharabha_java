@@ -1,0 +1,40 @@
+❌ Port 8080 is already in use
+
+Something else (another Spring Boot app, Tomcat, VSCode live server, etc.) is already running on port 8080, so your new app cannot start.
+
+✅ FIX #1 — Stop the process using port 8080
+
+Run this command in PowerShell:
+
+▶ Find the process:
+netstat -ano | findstr :8080
+
+
+You will see something like:
+
+TCP    0.0.0.0:8080   ....   PID: 1234
+
+▶ Kill the process:
+taskkill /PID 1234 /F
+
+
+Then run your project again:
+
+mvn spring-boot:run
+
+✅ FIX #2 — Change your Spring Boot port (quick solution)
+
+In application.properties, add:
+
+server.port=9090
+
+
+Then run again:
+
+mvn spring-boot:run
+
+
+Your app will start on:
+
+👉 http://localhost:9090
+
